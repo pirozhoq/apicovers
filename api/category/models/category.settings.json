@@ -24,20 +24,11 @@
       "via": "childs"
     },
     "isRoot": {
-      "type": "boolean",
-      "default": false
+      "type": "boolean"
     },
     "products": {
-      "collection": "product",
-      "via": "category"
-    },
-    "lang": {
-      "type": "enumeration",
-      "enum": [
-        "en",
-        "ru"
-      ],
-      "required": true
+      "via": "category",
+      "collection": "product"
     }
   }
 }

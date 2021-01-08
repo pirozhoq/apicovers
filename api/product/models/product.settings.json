@@ -31,8 +31,13 @@
       "required": true
     },
     "category": {
-      "via": "products",
-      "model": "category"
+      "model": "category",
+      "via": "products"
+    },
+    "link": {
+      "type": "string",
+      "private": false,
+      "required": false
     }
   }
 }
