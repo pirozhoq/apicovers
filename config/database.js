@@ -30,8 +30,8 @@ module.exports = ({ env }) => ({
       options: {
         ssl: false,
         pool: {
-        	min: 0,
-        	max: 7
+        	min: 2,
+        	max: 10
         }
       },
     },
