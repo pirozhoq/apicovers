@@ -8,7 +8,7 @@
 //   },
 // });
 
-module.exports = ({ env }) => ({
-	host: env('APP_HOST'),
-	port: env.int('NODE_PORT'),
-});
+// module.exports = ({ env }) => ({
+// 	host: env('APP_HOST'),
+// 	port: env.int('NODE_PORT'),
+// });
